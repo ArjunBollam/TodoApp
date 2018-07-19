@@ -1,0 +1,48 @@
+ul {
+    list-style: none;
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+    display: flex;
+    flex-direction: column;
+}
+ul li{
+    display: block;
+    padding: 5px 5px;
+    margin-top: 10px;
+    background-color :rgb(244, 203, 66);
+    width:300px;;
+    height: 30px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    overflow: scroll;
+    cursor: pointer;
+    transition: flex-grow 1s ease-in-out;
+    
+
+}
+ul li.checked{
+    text-decoration: line-through;
+    
+
+}
+
+ul li:hover {
+    opacity: 0.6;
+    box-shadow: 2px 2px 9px;
+    flex-grow: 5;
+}
+
+input[type=text]{
+    width:300px;
+    height:30px;
+    border-radius: 8px;
+    margin-left:30px
+
+}
+input[type=button]{
+    margin-left: 10px;
+    border-radius: 8px;
+    width:100px;
+    height: 36px;;
+}

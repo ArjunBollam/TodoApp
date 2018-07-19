@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome!
+  </h1>
+</div>
+<h2>Todo list using Angular 4 and Redux</h2>
+<div class="TodoApp" #todoApp>
+  <input type="text" #box placeholder="Enter Todo Item" (keyup)="onKey(box.value)" (keyup.enter)="AddItem(box.value)"/>
+
+  <input type="button" (click)="AddItem(box.value)" value="AddItem"/>
+
+
+  <ul>
+    <li  *ngFor="let todo of todos;let i = index" [ngClass]="{'checked': todo.completed}">
+      <span><input type="checkbox" [checked]="todo.completed" (change)="toggleComplete(i)"/></span> {{todo.name}} 
+    </li>
+  </ul>
+
+</div>
+

@@ -1,3 +1,47 @@
+
+.row {
+    margin-left: 10px;
+    max-width: 100%;
+    display: table;
+    height: 25%;
+}
+.col-xs-12 {
+    display: inline-block;
+    margin-top: 10px;
+
+}
+.col-md-6 {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:500px){
+    .col-xs-12 {
+        display: block;
+        margin-top: 10px;
+        width:300px;
+        
+    }
+    .col-xs-12 input[type=text] {
+        width: 100%;
+    }
+   
+    .col-xs-12 input[type=button] {
+        width: 100%;
+    }
+}
+
+div.container {
+    margin: 0 auto;
+}
+.container::before {
+    content: " ";
+    display: table;
+}
+.container::after {
+    content: " ";
+    display: table;
+}
 ul {
     list-style: none;
     display:-webkit-flex;
@@ -10,7 +54,7 @@ ul li{
     padding: 5px 5px;
     margin-top: 10px;
     background-color :rgb(244, 203, 66);
-    width:300px;;
+    width:300px;
     height: 30px;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
@@ -37,12 +81,52 @@ input[type=text]{
     width:300px;
     height:30px;
     border-radius: 8px;
-    margin-left:30px
+    margin-left:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
 
 }
 input[type=button]{
-    margin-left: 10px;
+    margin-left:30px;
     border-radius: 8px;
     width:100px;
-    height: 36px;;
+    height: 36px;
+    background-color: yellowgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+input[type=button]:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.checkbox-round {
+    position: relative;
+    width: 2.2em;
+    height: 2.2em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: gray;
+}
+
+.checkbox-round:checked:after {
+    content: "";
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    height: 6px;
+    left: 4px;
+    position: absolute;
+    top: 5px;
+    transform: rotate(-45deg);
+    width: 12px;
+
 }

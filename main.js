@@ -102,7 +102,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var reducers = { todos: _reducers_todos_reducer__WEBPACK_IMPORTED_MODULE_1__["reducer"] };
-var initialState = { todos: [{ id: 0, name: 'Go to Wallmart', completed: false }] };
+var initialState = { todos: [{ id: 0, name: 'Go to Wallamrt', completed: false }] };
 var StoreFactoryService = function () {
     return new _Store__WEBPACK_IMPORTED_MODULE_0__["Store"](reducers, initialState);
 };
@@ -121,7 +121,7 @@ var StoreProvioder = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n.container {\n    margin: auto;\n    width: 100%;\n    border: 3px solid green;\n    padding: 10px\n}\n\n.row {\n    margin-left: 10px;\n    max-width: 100%;\n    display: table;\n    height: 25%;\n}\n\n.col-xs-12 {\n    display: inline-block;\n    margin-top: 10px;\n\n}\n\n.col-md-6 {\n    display: inline-block;\n    margin-top: 10px;\n}\n\n.close{\n   position: absolute;\n   top:15px;\n   right: 2px;\n   cursor: pointer;\n   opacity: 0.3;\n   display: inline-block;\n   width:20px;\n   text-align: center;\n   z-index: 1;\n   padding: 2px;\n}\n\n.close:hover{\n    opacity: 1;\n}\n\n@media screen and (max-width:500px){\n    .col-xs-12 {\n        display: block;\n        margin-top: 10px;\n        width:300px;\n        \n    }\n    .col-xs-12 input[type=text] {\n        width: 100%;\n    }\n   \n    .col-xs-12 input[type=button] {\n        width: 100%;\n    }\n}\n\nul .todocontainer{\n    position: relative;\n    width:300px;\n}\n\nul {\n    list-style: none;\n    display:-webkit-flex;\n    display: flex;\n    flex-direction: column;\n}\n\nul li{\n    display: block;\n    padding: 5px 5px;\n    margin-top: 10px;\n    background-color :rgb(244, 203, 66);\n    width:300px;\n    height: 30px;\n    text-align: left;\n    font-family: Arial, Helvetica, sans-serif;\n    font-size: larger;\n    overflow: scroll;\n    transition: text-all 1s ease-in-out;\n}\n\nul li.checked{\n    text-decoration: line-through;\n}\n\nul li:hover {\n    opacity: 0.6;\n    box-shadow: 2px 2px 9px;\n    flex-grow: 5;\n}\n\ninput[type=text]{\n    width:300px;\n    height:30px;\n    border-radius: 8px;\n    margin-left:30px;\n    font-family: Arial, Helvetica, sans-serif;\n    font-size: larger;\n\n}\n\ninput[type=button]{\n    margin-left:30px;\n    border-radius: 8px;\n    width:100px;\n    height: 36px;\n    background-color: yellowgreen;\n    font-family: Arial, Helvetica, sans-serif;\n    font-size: larger;\n}\n\ninput[type=button]:hover {\n    opacity: 0.6;\n    cursor: pointer;\n}\n\n.checkbox-round {\n    position: relative;\n    width: 2.2em;\n    height: 2.2em;\n    background-color: white;\n    border-radius: 50%;\n    vertical-align: middle;\n    border: 1px solid #ddd;\n    -webkit-appearance: none;\n    outline: none;\n    cursor: pointer;\n}\n\n.checkbox-round:checked {\n    background-color: gray;\n}\n\n.checkbox-round:checked:after {\n    content: \"\";\n    border: 2px solid #fff;\n    border-top: none;\n    border-right: none;\n    height: 6px;\n    left: 4px;\n    position: absolute;\n    top: 5px;\n    -webkit-transform: rotate(-45deg);\n            transform: rotate(-45deg);\n    width: 12px;\n\n}"
+module.exports = "\n.container {\n    margin: auto;\n    width: 100%;\n    border: 3px solid green;\n    padding: 10px\n}\n\n.row {\n    margin-left: 10px;\n    max-width: 100%;\n    display: table;\n    height: 25%;\n}\n\n.col-xs-12 {\n    display: inline-block;\n    margin-top: 10px;\n\n}\n\n.col-md-6 {\n    display: inline-block;\n    margin-top: 10px;\n}\n\n@media screen and (max-width:500px){\n    .col-xs-12 {\n        display: block;\n        margin-top: 10px;\n        width:300px;\n        \n    }\n    .col-xs-12 input[type=text] {\n        width: 100%;\n    }\n   \n    .col-xs-12 input[type=button] {\n        width: 100%;\n    }\n}\n\nul .todocontainer{\n    position: relative;\n    width:300px;\n}\n\nul {\n    list-style: none;\n    display:-webkit-flex;\n    display: flex;\n    flex-direction: column;\n}\n\nul li{\n    display: block;\n    padding: 5px 5px;\n    margin-top: 10px;\n    background-color :rgb(244, 203, 66);\n    width:300px;\n    height: 30px;\n    text-align: left;\n    font-family: Arial, Helvetica, sans-serif;\n    font-size: larger;\n    overflow: scroll;\n    transition: text-all 1s ease-in-out;\n}\n\nul li.checked{\n    text-decoration: line-through;\n}\n\nul li:hover {\n    opacity: 0.6;\n    box-shadow: 2px 2px 9px;\n    flex-grow: 5;\n}\n\ninput[type=text]{\n    width:300px;\n    height:30px;\n    border-radius: 8px;\n    margin-left:30px;\n    font-family: Arial, Helvetica, sans-serif;\n    font-size: larger;\n\n}\n\ninput[type=button]{\n    margin-left:30px;\n    border-radius: 8px;\n    width:100px;\n    height: 36px;\n    background-color: yellowgreen;\n    font-family: Arial, Helvetica, sans-serif;\n    font-size: larger;\n}\n\ninput[type=button]:hover {\n    opacity: 0.6;\n    cursor: pointer;\n}\n\n.checkbox-round {\n    position: relative;\n    width: 2.2em;\n    height: 2.2em;\n    background-color: white;\n    border-radius: 50%;\n    vertical-align: middle;\n    border: 1px solid #ddd;\n    -webkit-appearance: none;\n    outline: none;\n    cursor: pointer;\n}\n\n.checkbox-round:checked {\n    background-color: gray;\n}\n\n.checkbox-round:checked:after {\n    content: \"\";\n    border: 2px solid #fff;\n    border-top: none;\n    border-right: none;\n    height: 6px;\n    left: 4px;\n    position: absolute;\n    top: 5px;\n    -webkit-transform: rotate(-45deg);\n            transform: rotate(-45deg);\n    width: 12px;\n\n}\n\n.close{\n    position: absolute;\n    top:15px;\n    right: 2px;\n    cursor: pointer;\n    opacity: 0.3;\n    display: inline-block;\n    width:20px;\n    text-align: center;\n    z-index: 1;\n    padding: 2px;\n }\n\n.close:hover{\n     opacity: 1;\n }"
 
 /***/ }),
 
@@ -132,7 +132,7 @@ module.exports = "\n.container {\n    margin: auto;\n    width: 100%;\n    borde
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div class=\"container\">\n  <h1>\n    Welcome!\n  </h1>\n<h2>Todo list using Angular 4 and Redux</h2>\n<div class=\"row\">\n  <div class=\"col-xs-12 col-md-6\">\n<input type=\"text\" #box placeholder=\"Enter Todo Item\" (keyup)=\"onKey(box.value)\" (keyup.enter)=\"AddItem(box.value)\" autofocus/>\n  </div>\n  <div class=\"col-xs-12 col-md-6\">\n    <input type=\"button\" (click)=\"AddItem(box.value)\" value=\"AddItem\"/>\n  </div>\n</div>\n<div class=\"TodoApp\" #todoApp>\n  <ul>\n    <div class=\"todocontainer\" *ngFor=\"let todo of todos;let i = index\" >\n        <li  [ngClass]=\"{'checked': todo.completed}\" [contentEditable]=\"false\">\n            <span><input type=\"checkbox\" class=\"checkbox-round\" [checked]=\"todo.completed\" (change)=\"toggleComplete(i)\" /></span> {{todo.name}} \n            <span class=\"close\" (click)=\"deleteTodo(i)\">X</span>\n          </li>\n    </div>  \n  </ul>\n\n</div>\n</div>\n\n"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div class=\"container\">\n  <h1>\n    Welcome!\n  </h1>\n<h2>Todo list using Angular 4 and Redux</h2>\n<div class=\"row\">\n  <div class=\"col-xs-12 col-md-6\">\n<input type=\"text\" #box placeholder=\"Enter Todo Item\" (keyup)=\"onKey(box.value)\" (keyup.enter)=\"AddItem(box.value)\" autofocus/>\n  </div>\n  <div class=\"col-xs-12 col-md-6\">\n    <input type=\"button\" (click)=\"AddItem(box.value)\" value=\"AddItem\"/>\n  </div>\n</div>\n<div class=\"TodoApp\" #todoApp>\n  <app-todos [todos]=\"todos\" (deleteevent)=\"deleteTodo($event)\" (toggleevent)=\"toggleComplete($event)\">\n \n  </app-todos>\n</div>\n</div>\n\n"
 
 /***/ }),
 
@@ -194,6 +194,10 @@ var AppComponent = /** @class */ (function () {
     AppComponent.prototype.deleteTodo = function (i) {
         this.store.dispatch(new _reducers_todos_reducer__WEBPACK_IMPORTED_MODULE_3__["DeleteTodo"]({ index: i }));
         this.getTodos();
+        console.log("Values of state after modifications\n     are");
+        this.todos.forEach(function (element) {
+            console.log(element);
+        });
     };
     AppComponent.prototype.toggleComplete = function (i) {
         this.store.dispatch(new _reducers_todos_reducer__WEBPACK_IMPORTED_MODULE_3__["ToggleCompleted"]({ index: i }));
@@ -202,9 +206,6 @@ var AppComponent = /** @class */ (function () {
         this.todos.forEach(function (element) {
             console.log(element);
         });
-    };
-    AppComponent.prototype.makeEditable = function (i) {
-        this.isEditable = true;
     };
     AppComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -339,7 +340,7 @@ function reducer(state, action) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "ul .todocontainer{\n    position: relative;\n    width:300px;\n}\n\nul {\n    list-style: none;\n    display:-webkit-flex;\n    display: flex;\n    flex-direction: column;\n}\n\nul li{\n    display: block;\n    padding: 5px 5px;\n    margin-top: 10px;\n    background-color :rgb(244, 203, 66);\n    width:300px;\n    height: 30px;\n    text-align: left;\n    font-family: Arial, Helvetica, sans-serif;\n    font-size: larger;\n    overflow: scroll;\n    transition: text-all 1s ease-in-out;\n}\n\nul li.checked{\n    text-decoration: line-through;\n}\n\nul li:hover {\n    opacity: 0.6;\n    box-shadow: 2px 2px 9px;\n    flex-grow: 5;\n}\n\ninput[type=text]{\n    width:300px;\n    height:30px;\n    border-radius: 8px;\n    margin-left:30px;\n    font-family: Arial, Helvetica, sans-serif;\n    font-size: larger;\n\n}\n\ninput[type=button]{\n    margin-left:30px;\n    border-radius: 8px;\n    width:100px;\n    height: 36px;\n    background-color: yellowgreen;\n    font-family: Arial, Helvetica, sans-serif;\n    font-size: larger;\n}\n\ninput[type=button]:hover {\n    opacity: 0.6;\n    cursor: pointer;\n}\n\n.checkbox-round {\n    position: relative;\n    width: 2.2em;\n    height: 2.2em;\n    background-color: white;\n    border-radius: 50%;\n    vertical-align: middle;\n    border: 1px solid #ddd;\n    -webkit-appearance: none;\n    outline: none;\n    cursor: pointer;\n}\n\n.checkbox-round:checked {\n    background-color: gray;\n}\n\n.checkbox-round:checked:after {\n    content: \"\";\n    border: 2px solid #fff;\n    border-top: none;\n    border-right: none;\n    height: 6px;\n    left: 4px;\n    position: absolute;\n    top: 5px;\n    -webkit-transform: rotate(-45deg);\n            transform: rotate(-45deg);\n    width: 12px;\n\n}\n\n.close{\n    position: absolute;\n    top:15px;\n    right: 2px;\n    cursor: pointer;\n    opacity: 0.3;\n    display: inline-block;\n    width:20px;\n    text-align: center;\n    z-index: 1;\n    padding: 2px;\n }\n\n.close:hover{\n     opacity: 1;\n }"
 
 /***/ }),
 
@@ -350,7 +351,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "<ul>\n        <div class=\"todocontainer\" *ngFor=\"let todo of todos;let i = index;trackBy: trackItem\" >\n            <li  [ngClass]=\"{'checked': todo.completed}\" [contentEditable]=\"false\">\n                <span><input type=\"checkbox\" class=\"checkbox-round\" [checked]=\"todo.completed\" (change)=\"toggleComplete(i)\" /></span> {{todo.name}} \n                <span class=\"close\" (click)=\"deleteTodo(i)\">X</span>\n              </li>\n        </div>  \n</ul>"
 
 /***/ }),
 
@@ -371,16 +372,43 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 
 var TodoComponent = /** @class */ (function () {
     function TodoComponent() {
+        this.deleteevent = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.toggleevent = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
     }
+    TodoComponent.prototype.deleteTodo = function (i) {
+        this.deleteevent.emit(i);
+    };
+    TodoComponent.prototype.toggleComplete = function (i) {
+        this.toggleevent.emit(i);
+    };
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
+        __metadata("design:type", Array)
+    ], TodoComponent.prototype, "todos", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"])(),
+        __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"])
+    ], TodoComponent.prototype, "deleteevent", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"])(),
+        __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"])
+    ], TodoComponent.prototype, "toggleevent", void 0);
     TodoComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-todos',
             template: __webpack_require__(/*! ./todos.component.html */ "./src/app/todos/todos.component.html"),
-            styles: [__webpack_require__(/*! ./todos.component.css */ "./src/app/todos/todos.component.css")]
+            styles: [__webpack_require__(/*! ./todos.component.css */ "./src/app/todos/todos.component.css")],
+            changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectionStrategy"].OnPush
         })
+        // Presentation Component
+        ,
+        __metadata("design:paramtypes", [])
     ], TodoComponent);
     return TodoComponent;
 }());

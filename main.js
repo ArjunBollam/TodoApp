@@ -102,7 +102,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var reducers = { todos: _reducers_todos_reducer__WEBPACK_IMPORTED_MODULE_1__["reducer"] };
-var initialState = { todos: [{ id: 0, name: 'Go to Wallamrt', completed: false }] };
+var initialState = { todos: [{ id: 0, name: 'Go to Wallmart', completed: false }] };
 var StoreFactoryService = function () {
     return new _Store__WEBPACK_IMPORTED_MODULE_0__["Store"](reducers, initialState);
 };
